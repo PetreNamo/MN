@@ -1,0 +1,40 @@
+Tema MN(1)
+
+Namoianu Petre - 315CC
+
+Markov is coming:
+
+Problema incepe cu un labirint primit sub forma unei matrici codificate
+dupa suma in baza 2 a pozitiilor pe care se afla ziduri. Apoi aceasta
+este transformata intr-o matrice de adiacenta si de legaturi. Pe baza
+celei de legaturi se construieste un sistem cu o matrice si un vector
+de iteratie pentru a aplica o variatiune a metodei Jacobi. Cu ajutorul
+ei vom determina probabilitatea de casting din fiecare casuta din
+labirint. Ne vom ajuta de vectorul de probabilitati si de pozitia de
+start pentru a construi un traseu pana la castig, care apoi va fi
+decodat si afisat in ultima functie.
+
+
+Linear Regression:
+
+Se citesc datele unei case intr-o matrice si un vector coloana.
+Matricea se transforma dintr-una de cell-uri in una doar de
+numere, codificand coresrunzator cuvintele yes, no si toate
+legate de furnished. Apoi se calculeaza functia de cost pentru
+regresia liniara inmultind cate o linie din FeatureMatrix cu
+vectorul Theta primit, scazand vectorul Y, ridicand la patrat si
+adaugand la o suma pentru a calcula eroarea. Aplicam in urmatoarea
+faza tehnica gradientului descendent.
+
+
+Short engish version:
+
+1.  Implemented a problem where a robot needs to find a way out of
+a maze with the use of a Markov chain. The path was computed by
+calculating for each square its WIN probability (how likely it is to
+win from the current square) and then selecting those that progressively
+increase that chance to 100%.
+
+2.  The second problem takes a set of data about apartments and converts it
+into a matrix, which then can be used, in conjunction with a cost function,
+to apply Multiple Linear Regression to predict prices.
